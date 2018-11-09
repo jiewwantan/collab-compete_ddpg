@@ -21,7 +21,7 @@ The task is episodic, and in order to solve the environment, the two agents must
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-'''
+```
 INFO:unityagents:
 'Academy' started successfully!
 Unity Academy name: Academy
@@ -38,7 +38,7 @@ Unity brain name: TennisBrain
         Vector Action space type: continuous
         Vector Action space size (per agent): 2
         Vector Action descriptions: , 
-'''
+```
 
 ## Installation Instruction
 #### The README has instructions for installing dependencies or downloading needed files.
@@ -79,7 +79,8 @@ The Unity Reacher environment can be downloaded from here:
 
 Choose the environment suitable for your machine. Unzipping will create another Tennis_XXX folder. For example, if the Tennis Windows 64-bits environment is downloaded, ```Tennis_Windows_x86_64``` will be created. 
 
-Run ```p3_collab-compet/report.ipynb```
+Run 
+```p3_collab-compet/report.ipynb```
 
 Enter the right path for the Unity Tennis environment in report.ipynb. For example for a folder consisting a Windows  64-bits environemnt is: 
 
