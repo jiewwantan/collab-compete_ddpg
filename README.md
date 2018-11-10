@@ -62,7 +62,7 @@ conda install pytorch -c pytorch
 
 ### Getting Started
 
-Place <mark>report.ipynb</mark> in the folder <mark>p3_collab-compet/</mark> together with the following two files:
+Place <mark>Report.ipynb</mark> in the folder <mark>p3_collab-compet/</mark> together with the following two files:
 
 1. ddpg_agent.py - contains the DDPG agent code. 
 2. model.py - contains Actor and Critic neural network modules classes
@@ -80,14 +80,14 @@ The Unity Reacher environment can be downloaded from here:
 Choose the environment suitable for your machine. Unzipping will create another Tennis_XXX folder. For example, if the Tennis Windows 64-bits environment is downloaded, ```Tennis_Windows_x86_64``` will be created. 
 
 Run 
-```p3_collab-compet/report.ipynb```
+```p3_collab-compet/Report.ipynb```
 
-Enter the right path for the Unity Tennis environment in report.ipynb. For example for a folder consisting a Windows  64-bits environemnt is: 
+Enter the right path for the Unity Tennis environment in Report.ipynb. For example for a folder consisting a Windows  64-bits environemnt is: 
 
 ```
 env = UnityEnvironment(file_name="./Tennis_Windows_x86_64/Tennis.exe")
 
 ```
 
-Run the remaining cell as ordered in ```report.ipynb``` to train the Actor-Critic DDPG agent. 
+Run the remaining cell as ordered in ```Report.ipynb``` to train the Actor-Critic DDPG agent. 
 
